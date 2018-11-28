@@ -30,7 +30,7 @@ function handleModalAcceptClick() {
       caption: caption
     });
 
-    request.addEventListener('load', function (event) {
+    postRequest.addEventListener('load', function (event) {
       if (event.target.status === 200) {
         var photoCardTemplate = Handlebars.templates.photoCard;
         var newPhotoCardHTML = photoCardTemplate({
@@ -44,8 +44,8 @@ function handleModalAcceptClick() {
       }
     });
 
-    request.setRequestHeader('Content-Type', 'application/json');
-    request.send(requestBody);
+    postRequest.setRequestHeader('Content-Type', 'application/json');
+    postRequest.send(requestBody);
 
     hideModal();
 
