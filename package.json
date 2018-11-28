@@ -1,0 +1,33 @@
+{
+  "name": "async-communication",
+  "version": "1.0.0",
+  "description": "Asynchronous communication between client and server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "handlebars views/partials/photoCard.handlebars -f public/photoCardTemplate.js",
+    "prestart": "npm run build",
+    "predev": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OSU-CS290-F18/async-communication.git"
+  },
+  "author": "Hess",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OSU-CS290-F18/async-communication/issues"
+  },
+  "homepage": "https://github.com/OSU-CS290-F18/async-communication#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}

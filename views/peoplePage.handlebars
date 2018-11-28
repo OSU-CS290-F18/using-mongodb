@@ -1,0 +1,13 @@
+<main class="people-page">
+
+  <div class="title-container">
+    <h2>Check out photos of these people:</h2>
+  </div>
+
+  {{#each people}}
+    <div class="person-card">
+      <a href="/people/{{@key}}">{{name}}</a>
+    </div>
+  {{/each}}
+
+</main>

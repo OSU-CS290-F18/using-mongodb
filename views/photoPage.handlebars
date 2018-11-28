@@ -1,0 +1,48 @@
+<main class="photo-page">
+
+  <div class="title-container">
+    <h1>Photos of {{name}}</h1>
+  </div>
+
+  <div class="photo-card-container">
+
+    {{#each photos}}
+      {{> photoCard}}
+    {{/each}}
+
+  </div>
+
+</main>
+
+<button type="button" id="add-photo-button"><i class="fa fa-camera"></i></button>
+
+<div id="modal-backdrop" class="hidden"></div>
+<div id="add-photo-modal" class="hidden">
+  <div class="modal-dialog">
+
+    <div class="modal-header">
+      <h3>Post a photo</h3>
+      <button type="button" id="modal-close" class="modal-hide-button">&times;</button>
+    </div>
+
+    <div class="modal-body">
+
+      <div class="photo-input-element">
+        <label for="photo-url-input">Photo URL</label>
+        <input type="text" id="photo-url-input">
+      </div>
+
+      <div class="photo-input-element">
+        <label for="photo-caption-input">Caption</label>
+        <input type="text" id="photo-caption-input"></input>
+      </div>
+
+    </div>
+
+    <div class="modal-footer">
+      <button type="button" id="modal-cancel" class="modal-hide-button action-button">Cancel</button>
+      <button type="button" id="modal-accept" class="action-button">Create Post</button>
+    </div>
+
+  </div>
+</div>
