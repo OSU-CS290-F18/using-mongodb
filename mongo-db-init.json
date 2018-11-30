@@ -1,0 +1,96 @@
+[
+  {
+    "personId": "luke",
+    "name": "Luke Skywalker",
+    "photos": [
+      {
+        "caption": "Luke ready to fight.",
+        "url": "https://d1ai9qtk9p41kl.cloudfront.net/assets/mc/psuderman/2015_12/LukeGreenSaber-MOROTJ.png"
+      },
+      {
+        "caption": "GQ Luke.",
+        "url": "https://s-media-cache-ak0.pinimg.com/736x/2f/b7/dc/2fb7dc3e5cb7b12b454aa1bfdf45573f.jpg"
+      },
+      {
+        "caption": "Luke looking pensive.",
+        "url": "http://esq.h-cdn.co/assets/15/43/980x490/landscape-1445356666-star-wars-luke-skywalker-tatooine.jpg"
+      }
+    ]
+  },
+
+  {
+    "personId": "leia",
+    "name": "Princess Leia",
+    "photos": [
+      {
+        "caption": "Skeptical Leia.",
+        "url": "https://i.kinja-img.com/gawker-media/image/upload/s--c-ZfGdaN--/c_scale,f_auto,fl_progressive,q_80,w_800/qsjzp4ryybdx6uo4t4aw.png"
+      },
+      {
+        "caption": "Leia in a sticky situation.",
+        "url": "https://uproxx.files.wordpress.com/2015/10/leia.jpg"
+      },
+      {
+        "caption": "Luke looking pensive.",
+        "url": "https://www.girlgeekupnorth.co.uk/wp-content/uploads/2016/12/Princess-Leia-1.jpg"
+      }
+    ]
+  },
+
+  {
+    "personId": "rey",
+    "name": "Rey",
+    "photos": [
+      {
+        "caption": "Bloody-knuckled Rey.",
+        "url": "https://cdn.vox-cdn.com/thumbor/-ThVRtgJaNrn4n8CnnZjQbqQ4yM=/34x0:680x431/920x613/filters:focal(34x0:680x431):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/48440721/rey.0.0.jpeg"
+      },
+      {
+        "caption": "Rey high-tailing it.",
+        "url": "http://www.msnbc.com/sites/msnbc/files/styles/ratio--3-2--830x553/public/ap_330210535512.jpg"
+      },
+      {
+        "caption": "Angry/surprised Rey.",
+        "url": "https://www.nixon.com/on/demandware.static/-/Library-Sites-Nixon/default/dw95875405/category-landing/star-wars/rey/REY-CHARACTER-LANDING-5050-632x632.jpg"
+      }
+    ]
+  },
+
+  {
+    "personId": "finn",
+    "name": "Finn",
+    "photos": [
+      {
+        "caption": "Finn with a light saber.",
+        "url": "https://www.dailydot.com/wp-content/uploads/51f/ba/3ef48a8d9da83e238a215601b001c811.jpg"
+      },
+      {
+        "caption": "Storm trooper Finn.",
+        "url": "https://imgix.bustle.com/rehost/2016/9/13/af6ad080-8de6-4b40-856f-ee805fbd9988.png"
+      },
+      {
+        "caption": "Finn feeling pretty good about his situation.",
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/6/64/FinnPhasma-TFA.png"
+      }
+    ]
+  },
+
+  {
+    "personId": "r2d2",
+    "name": "R2-D2",
+    "photos": [
+      {
+        "caption": "R2 rolling.",
+        "url": "https://www.sideshowtoy.com/wp-content/uploads/2018/07/star-wars-r2-d2-legendary-scale-figure-sideshow-feature-400155.jpg"
+      },
+      {
+        "caption": "R2 flying.",
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/f/fe/Skyrocketsinflight.jpg"
+      },
+      {
+        "caption": "R2 and his best pal.",
+        "url": "https://cdn.theatlantic.com/assets/media/img/mt/2015/12/MV5BOTcwMTg0NDcxMl5BMl5BanBnXkFtZTcwMjEyMTIyMw._V1_SX1224_SY560_-2/lead_720_405.jpg"
+      }
+    ]
+  }
+]
